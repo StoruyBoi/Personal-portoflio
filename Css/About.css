@@ -1,0 +1,60 @@
+.About{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+gap: 90px;
+    align-items: center;
+}
+.point{
+    font-size: 3em;
+padding: 20px;
+}
+.firstcirlcle{
+    width: 30px;
+    height: 30px;
+    background: rebeccapurple;
+    border-radius: 50%;
+}
+.firtsLine{
+    border-left: 2px dotted black;
+    height: 50px;
+}
+.Expericne_box{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.Expericne_box1{
+    display: flex;
+    padding: 20px;
+   
+    gap: 20px;
+}
+.ebox1 p{
+    font-size: 0.8em;
+    color: grey;
+    
+}
+.ebox2{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.ebox3 p{
+    font-size: 0.8em;
+    color: grey;
+   
+}
+.myexper{
+    text-align: center;
+}
+.myeducation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ .experence {
+    text-align: center;
+ }

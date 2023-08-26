@@ -1,0 +1,35 @@
+.skills{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 20px
+}
+.Main_box {
+
+color: white;
+
+    /* background-image: radial-gradient(circle at 50% 100%,#000,#333 90%); */
+   
+    padding: 20px;
+    border-radius: 20px;
+}
+.Main_box img{
+  width: 80px;
+
+}
+.SKillss_contianer{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+}
+.skill_heading{
+    text-align: center;
+}
+.skill_heading h1{
+
+    font-size: 2.4em;
+}
+.skill_heading p{
+    color: gray;
+    font-size: 1.1em;
+}

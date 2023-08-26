@@ -1,0 +1,46 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:wght@500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.dark-theme{
+--bg-color:black;
+--li-color:white;
+
+}
+.light-theme{
+  --bg-color:white;
+  --li-color:black;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--bg-color);
+  
+}
+
+nav>h1>a{
+  color:var(--li-color) ;
+  
+}
+
+.list_links>ul{
+  display: flex;
+  gap: 20px;
+
+}
+.list_links>ul>li>a{
+color:var(--li-color) ;
+
+}
+

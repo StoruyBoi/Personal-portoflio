@@ -1,0 +1,7 @@
+.doamin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 100px;
+
+}

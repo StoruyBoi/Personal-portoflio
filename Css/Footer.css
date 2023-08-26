@@ -1,0 +1,38 @@
+footer{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #C4EBFE;
+    border-radius: 20px;
+    margin: 20px 0 0 0;
+
+}
+.foote_topconteir{
+    display: flex;align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.foote_topconteir h1{
+   color: #777777;
+}
+.foote_topconteir p{
+   color: #777777c3;
+   font-family: cursive;
+}
+.foot_seconontier p{
+color: #333333a2;
+}
+.foote_topconteir>button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background: #333333;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    gap: 10px;
+max-width: fit-content;
+}
+

@@ -1,0 +1,51 @@
+.lerftcss{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    position: fixed;
+    gap: 20px;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+   
+}
+.lerftcss svg{
+    width:25px;
+height: 25px;
+
+}
+
+.rightcss{
+    align-items: center;
+        width: 40px;
+        gap: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    right: 40px;
+    z-index: 10;
+}
+.rightcss a{
+    writing-mode: vertical-lr;
+}
+.rightcss svg{
+    width:25px;
+height: 25px;
+
+}
+.svgar{
+    display: flex;
+    flex-direction: column;
+}
+.vrLine{
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 200px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}

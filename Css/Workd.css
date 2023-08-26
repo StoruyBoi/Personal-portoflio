@@ -1,0 +1,60 @@
+.work_contanier{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.box_1_wrok {
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    /* gap: 60px; */
+}
+.main_box{
+    display: flex;
+    gap: 80px;
+flex-direction: column  ;
+
+  
+    border-radius: 20px;
+    overflow: hidden;
+}
+.box11 h1
+{
+    font-size: 2em;
+}
+.box11 p
+{
+    font-size: 1em;
+    color: #777777c3;
+}
+
+.circle{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: white;
+border-radius: 50%;
+
+}
+.circle>a>img{
+    width: 20px;
+}
+.box_2_work img {
+    border-radius: 10px;
+    left: 79px;
+    top: 15px;
+    width: 504px;
+    position: relative;
+}
+._work{
+    text-align: center;
+    font-size: 3.7em;
+    padding: 20px;
+}
