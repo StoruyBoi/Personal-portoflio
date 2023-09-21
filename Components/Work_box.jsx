@@ -20,7 +20,7 @@ export default function Work_box(props) {
 
         <div className="box22">
           <div className="circle">
-            <a href="#">
+            <a href={props.link}>
               <img src={props.img} alt="" />
             </a>
           </div>

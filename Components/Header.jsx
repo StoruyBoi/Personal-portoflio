@@ -55,16 +55,6 @@ export default function Header() {
       }));
 
 // fcuntionality
-const [ theme,setTheme]=useState("light-theme")
-const toggleTheme=()=>{
-    theme === "dark-theme" ? setTheme("light-theme"):setTheme("dark-theme")
-
-
-
-}
-useEffect(()=>{
-    document.body.className=theme;
-},[theme]);
 
 
 
@@ -90,13 +80,13 @@ useEffect(()=>{
             </li>
           </ul>
         </div>
-        <div className="dark_mode_toogel">
+        {/* <div className="dark_mode_toogel">
        
       
 
       <MaterialUISwitch sx={{ m: 1 }} checked={"dark-mode"} onChange={()=>toggleTheme()} defaultChecked />
     
-        </div>
+        </div> */}
       </nav>
     </>
   );
